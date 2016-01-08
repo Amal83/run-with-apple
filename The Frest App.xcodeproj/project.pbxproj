@@ -15,6 +15,7 @@
 		04467DD31BE4219300BDD1F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04467DD11BE4219300BDD1F7 /* LaunchScreen.storyboard */; };
 		04467DDE1BE4219400BDD1F7 /* The_Frest_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04467DDD1BE4219400BDD1F7 /* The_Frest_AppTests.m */; };
 		04467DE91BE4219400BDD1F7 /* The_Frest_AppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04467DE81BE4219400BDD1F7 /* The_Frest_AppUITests.m */; };
+		04F1228D1BE55487000250C2 /* The Frest App.app in Resources */ = {isa = PBXBuildFile; fileRef = 04467DC01BE4219300BDD1F7 /* The Frest App.app */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -202,6 +203,9 @@
 		04467DB81BE4219300BDD1F7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					uilabl,
+				);
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Amal Qasim";
 				TargetAttributes = {
@@ -245,6 +249,7 @@
 			files = (
 				04467DD31BE4219300BDD1F7 /* LaunchScreen.storyboard in Resources */,
 				04467DD01BE4219300BDD1F7 /* Assets.xcassets in Resources */,
+				04F1228D1BE55487000250C2 /* The Frest App.app in Resources */,
 				04467DCE1BE4219300BDD1F7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,7 +416,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "The Frest App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.stratCode.The-Frest-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,7 +429,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "The Frest App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.stratCode.The-Frest-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +505,7 @@
 				04467DEF1BE4219400BDD1F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04467DF01BE4219400BDD1F7 /* Build configuration list for PBXNativeTarget "The Frest AppTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +514,7 @@
 				04467DF21BE4219400BDD1F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04467DF31BE4219400BDD1F7 /* Build configuration list for PBXNativeTarget "The Frest AppUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +523,7 @@
 				04467DF51BE4219400BDD1F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
